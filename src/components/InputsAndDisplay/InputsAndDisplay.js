@@ -9,7 +9,7 @@ const InputsAndDisplay = ({ velocity, setVelocity, travelDistance }) => {
   return (
     <InputContainer value={velocity} onChange={handleChange}>
       Velocity Input:
-      <InputsStyle />
+      <InputsStyle defaultValue={100} />
       Travel Distance:
       <TextViewStyle>{travelDistance} KM</TextViewStyle>
     </InputContainer>
